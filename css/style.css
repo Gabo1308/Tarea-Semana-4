@@ -41,36 +41,6 @@
     transform: translateX(0);
 }
 
-#home .section-nav .header-content h1 {
-    margin-left: 20px;
-}
-
-#home .section-nav .header-content {
-        flex-wrap: wrap; 
-        gap: 10px;
-}
- 
-#home .header-content nav .lista {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        gap: 20px;
-        margin: 0;
-        padding: 0;
-}
-
-#home  .header-content nav a {
-        text-decoration: none;
-        color: #555;
-        font-size: 20px;
-}
-
-#home .header-content nav .lista li {
-        display: flex;
-        align-items: center;
-        margin-right: 20px;
-}
-
 .section-caroucel .carousel-content h3 {
         display: flex;
         font-size: 80px;
@@ -146,6 +116,13 @@
     margin-right: 230px; 
     margin-left: 50px;
 }
+
+#nosotros .nosotros-header .nosotros-content .nosotros-list .Check-icon::before {
+    content: "✓";
+    color: #309311;
+    margin-right: 10px;
+}
+
 
 #nosotros .nosotros-header .nosotros-content .nosotros-list .nosotros-item p{
     margin-bottom: 10px;
@@ -492,7 +469,7 @@
 
   .section-caroucel .carousel-content .carousel-control-prev,
   .section-caroucel .carousel-content .carousel-control-next {
-    transform: translateY(450px) !important;
+    transform: translateY(200px) !important;
     width: 40px !important;
     height: 40px !important;
   }
@@ -531,7 +508,7 @@
 
   #caracteristicas .section-header .caracteristicas-cards .caracteristicas-col {
     margin: 0 auto;
-    padding-bottom: 15px;
+    padding-bottom: 330px;
   }
 
   #productos{
@@ -597,8 +574,7 @@
     display: block;
     float: none;
     transform: none;
-    margin: 18px 0 0 0;
-    width: 50%;
+    width: 60%;
   }
   
   #contactenos .footer-content {
